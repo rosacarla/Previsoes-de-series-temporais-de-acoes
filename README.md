@@ -20,13 +20,13 @@ from prophet import Prophet
 
 ### RELATÓRIO DO PROPHET COM PREVISÕES DE PREÇOS DE AÇÕES PARA 150 PERÍODOS  
 
-<img src=''>  
+<img src='https://github.com/rosacarla/Previsoes-de-series-temporais-de-acoes/blob/main/images/aula05-relatorio-prophet.png'>  
 
 ---  
 
 ### 📊 CRIAÇÃO DE GRÁFICOS PARA DEMONSTRAR VARIAÇÃO DO PREÇO DE AÇÕES NO FECHAMENTO
 
-<img src=''>  
+<img src='https://github.com/rosacarla/Previsoes-de-series-temporais-de-acoes/blob/main/images/aula05-grafico-jnj.png'>  
 
 ---  
 
@@ -44,13 +44,9 @@ Contato: rosa.carla@pucpr.edu.br
 
 #### 🔗 LINKS ÚTEIS  
 
-[Biblioteca Matplotlib: Visualization with Python](https://matplotlib.org/)  
-[Gráficos Matplotlib no Python](https://www.alura.com.br/artigos/criando-graficos-no-python-com-a-matplotlib?_gl=1*1dc3t7n*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTY4Mjc0MC4zNC4xLjE3MTE2ODI3NDkuMC4wLjA.*_fplc*aklKWnYxSTAybVRJVGltNVZieW1WYXdZbkp0elglMkZyb0dYdnFQcll2WGpreXMwS1VsQlBESEpXcGdmcm05ZWZXWTNpUXFiZFptR1psY2taRVVQVTV3cWtVc0R4dEFhN1JsSmZOOEtMUzlYbjNvRGs0ZmY2bGRnSmpvelhmdXclM0QlM0Q.)  
-[O que é API](https://www.alura.com.br/artigos/api?_gl=1*rcnrb*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTY4NTA4OC4zNS4wLjE3MTE2ODUxMzEuMC4wLjA.*_fplc*aklKWnYxSTAybVRJVGltNVZieW1WYXdZbkp0elglMkZyb0dYdnFQcll2WGpreXMwS1VsQlBESEpXcGdmcm05ZWZXWTNpUXFiZFptR1psY2taRVVQVTV3cWtVc0R4dEFhN1JsSmZOOEtMUzlYbjNvRGs0ZmY2bGRnSmpvelhmdXclM0QlM0Q.)  
-[Conheça o Yahoo Finanças](https://br.financas.yahoo.com/quote/%5EBVSP?p=%5EBVSP)  
-[Conheça as bibliotecas de Data Visualization do Python](https://www.alura.com.br/artigos/data-visualization-conhecendo-bibliotecas-python?_gl=1*tlxvhm*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTY4NTA4OC4zNS4xLjE3MTE2ODUxNzUuMC4wLjA.*_fplc*aklKWnYxSTAybVRJVGltNVZieW1WYXdZbkp0elglMkZyb0dYdnFQcll2WGpreXMwS1VsQlBESEpXcGdmcm05ZWZXWTNpUXFiZFptR1psY2taRVVQVTV3cWtVc0R4dEFhN1JsSmZOOEtMUzlYbjNvRGs0ZmY2bGRnSmpvelhmdXclM0QlM0Q.)  
-[Biblioteca MPLFinance](https://github.com/matplotlib/mplfinance)  
-[Traçar gráfico de velas usando o módulo MPLFinance em Python](https://acervolima.com/tracar-grafico-de-velas-usando-o-modulo-mplfinance-em-python/)  
-[Aprenda a visualizar dados financeiros com Python e MPLFinance](https://awari.com.br/aprenda-a-visualizar-dados-financeiros-com-python-e-mplfinance/#:~:text=A%20biblioteca%20mplfinance%20possui%20uma,Personaliza%C3%A7%C3%A3o%20dos%20gr%C3%A1ficos)
+[Documentação do Prophet](https://facebook.github.io/prophet/docs/quick_start.html)  
+[O que é Machine Learning](https://www.alura.com.br/artigos/machine-learning?_gl=1*1t1boit*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTkyNzg1MC40MS4wLjE3MTE5Mjc4NTAuMC4wLjA.*_fplc*SGs0SWJWdUdaRTl1Q0VJU1BFM3Qzamo0SjRBa2xDRFVmMmVoQm4wUzNVa2xnV2FDQyUyQmdEaWU1WDMzTjZwb20xM2dRb1FpSTVwZElXVE5mUm43ZnpCcHB2andRR1hJQ0NhTU1MVm4zN0dzTWklMkJpRiUyQlFMJTJGd0J5NEhMV0hOZlElM0QlM0Q.)  
+[Desmistificando termos de Machine Learning](https://www.alura.com.br/artigos/desmistificando-termos-machine-learning?_gl=1*cyd34a*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTkyNzg1MC40MS4xLjE3MTE5MjgzODUuMC4wLjA.*_fplc*SGs0SWJWdUdaRTl1Q0VJU1BFM3Qzamo0SjRBa2xDRFVmMmVoQm4wUzNVa2xnV2FDQyUyQmdEaWU1WDMzTjZwb20xM2dRb1FpSTVwZElXVE5mUm43ZnpCcHB2andRR1hJQ0NhTU1MVm4zN0dzTWklMkJpRiUyQlFMJTJGd0J5NEhMV0hOZlElM0QlM0Q.)  
+[Tipos de aprendizagem com a IA em Machine Learning ](https://www.alura.com.br/artigos/quais-sao-tipos-aprendizagem-ia-inteligencia-artificial?_gl=1*1wjsrhh*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTkyNzg1MC40MS4xLjE3MTE5Mjg2MTYuMC4wLjA.*_fplc*SGs0SWJWdUdaRTl1Q0VJU1BFM3Qzamo0SjRBa2xDRFVmMmVoQm4wUzNVa2xnV2FDQyUyQmdEaWU1WDMzTjZwb20xM2dRb1FpSTVwZElXVE5mUm43ZnpCcHB2andRR1hJQ0NhTU1MVm4zN0dzTWklMkJpRiUyQlFMJTJGd0J5NEhMV0hOZlElM0QlM0Q.)  
 
 ---
