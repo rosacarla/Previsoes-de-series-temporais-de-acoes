@@ -1,9 +1,9 @@
-#### 📈 ANÁLISES AVANÇADAS E GRÁFICOS DE VELAS COM API YAHOO FINANCE
+#### 📈 PREVISÕES DE SÉRIES TEMPORAIS COM PROPHET 
 
-Projeto desenvolvido para realizar análises mais avançadas de dados de ações, obtidos da API Yahoo Finance, e construir gráficos com Plotly e MPLFinance no Google Colab.  
+Projeto desenvolve um modelo em machine learning para a tarefa de prever os preços de ações da Bolsa de Valores, cujos dados são obtidos da API Yahoo Finance.  
 É uma proposta de trabalho feita na <i>Imersão Python: Do Excel à Análise de Dados</i>, promovida pela Alura.    
 
-<img src='https://i.postimg.cc/9QDfxRC5/aula04-cabecalho.png'>  
+<img src='https://i.postimg.cc/fTNpP24y/aula05-cabecalho.png'>  
 
 ---
 
@@ -11,57 +11,22 @@ Projeto desenvolvido para realizar análises mais avançadas de dados de ações
 
 ```python
 import pandas as pd
+import yfinance as yf
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import mplfinance as mpf
-import yfinance as yf  # API Yahoo Finance tem dados de ações
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+from prophet import Prophet
 ```
+
+---  
+
+### RELATÓRIO DO PROPHET COM PREVISÕES DE PREÇOS DE AÇÕES PARA 150 PERÍODOS  
+
+<img src=''>  
 
 ---  
 
 ### 📊 CRIAÇÃO DE GRÁFICOS PARA DEMONSTRAR VARIAÇÃO DO PREÇO DE AÇÕES NO FECHAMENTO
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/aula04-graficos.png'>
 
-- gráfico de linha com biblioteca Pandas da variação da ação PETR4 por data
-```python
-# Plota gráfico com dados da coluna Fechamento usando biblioteca Pandas
-# Plotar significa desenhar, ampliar, mostrar uma figura
-dados['Fechamento'].plot(figsize=(10,6))
-plt.title('VARIAÇÃO DO PREÇO POR DATA', fontsize=16)
-plt.legend(['Fechamento'])
-```
-- gráfico de candles ou velas com Matplotlib da variação da ação PETR4 em período de 60 dias
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/aula04-candle-matplotlib.png'>
-
-- gráfico de candles interativo com subplots e função Candlesticks da variação e valores transacionados de PETR4 em 60 dias
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/auka04-subplots-candlestick.png'>
-
-- gráfico de candles interativo refeito com a `API mágica`
-  
-```python
-# Cria grafico de candlestick para ação PETR4 com API mágica!
-mpf.plot(dados.head(60), type='candle', figsize = (16,8), volume=True, mav=(7,14), style='yahoo')
-```
----  
-
-### 🧠 DESAFIOS DA AULA 4  
-
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/aula04-desafio.png'>  
-
-- Pesquisar o que é uma tupla em Python;
-- Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
-
-☑️ RESOLUÇÃO DOS DESAFIOS  
-
-- Desafio 1 
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/aula04-desafio1.png'>
-
-- Desafio 2
-<img src='https://github.com/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/images/aula04-candlestick-mike.png'>
-
-Ver resolução completa no [notebook do Google Colab](https://colab.research.google.com/github/rosacarla/Analises-avancadas-e-graficos-de-velas/blob/main/Imersao_Python_Aula04.ipynb).  
+<img src=''>  
 
 ---  
 
